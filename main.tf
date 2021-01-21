@@ -23,11 +23,11 @@ resource "aws_subnet" "hashicat" {
 }
 
 resource "aws_s3_bucket" "hashicat" {
-  bucket = "my-tf-test-bucket"
+  bucket = "atj-test-bucket-ourstuff"
   acl    = "private"
 
   tags = {
-    Name        = "My bucket"
+    Name        = "My bucket at-ourstuff"
     Environment = "Dev"
   }
 }
