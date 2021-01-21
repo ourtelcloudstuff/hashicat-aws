@@ -4,6 +4,7 @@
     "attributes": {
       "key":"placeholder",
       "value":"http://www.placecage.com/",
+      "description":"Description",
       "category":"terraform",
       "hcl":false,
       "sensitive":false

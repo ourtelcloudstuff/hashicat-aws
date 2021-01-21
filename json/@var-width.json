@@ -5,6 +5,7 @@
       "key":"width",
       "value":"800",
       "category":"terraform",
+      "description":"Description",
       "hcl":false,
       "sensitive":false
     },

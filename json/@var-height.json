@@ -4,6 +4,7 @@
     "attributes": {
       "key":"height",
       "value":"600",
+      "description":"Description",
       "category":"terraform",
       "hcl":false,
       "sensitive":false
