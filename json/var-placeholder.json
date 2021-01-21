@@ -1,0 +1,20 @@
+{
+  "data": {
+    "type":"vars",
+    "attributes": {
+      "key":"placeholder",
+      "value":"http://www.placecage.com/",
+      "category":"terraform",
+      "hcl":false,
+      "sensitive":false
+    },
+    "relationships": {
+      "workspace": {
+        "data": {
+          "id":"ws-AeqKCY7ETgVKGMVh",
+          "type":"workspaces"
+        }
+      }
+    }
+  }
+}
