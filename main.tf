@@ -22,6 +22,17 @@ resource "aws_subnet" "hashicat" {
   }
 }
 
+resource "aws_s3_bucket" "hashicat" {
+  bucket = "my-tf-test-bucket"
+  acl    = "private"
+
+  tags = {
+    Name        = "My bucket"
+    Environment = "Dev"
+  }
+}
+
+
 resource "aws_security_group" "hashicat" {
   name = "${var.prefix}-security-group"
 
